@@ -3,15 +3,15 @@
 ## Introduction
 
 * Hardware knowledge to develop a Drone (Quad-copter preferably), including soldering, interconnects on Powerdistribution Board, etc.
-* 
+ 
 * Camera and Mini-Computer (Raspberry Pi) Mounts on the drone, and the payload lift capacity calculated to meet the weight constraints for safe flight
-* 
+
 * Software Application to process the captured Near Infrared Spectrum on the NoIR Camera. 
-* 
+
 * Development of the Flask application server to present the realtime feed to the system.
-* 
+
 * Alternate Mount for an action camera to record video in SD/HD for insect and weed identification.
-* 
+
 * Knowledge of QGroundControl (Open Source Application) integration to the flightcontroller (Pixhawk PX4) and manual operations (for emergencies and failsafe)
 
 ## Research
@@ -49,7 +49,8 @@ The features of the system are:
 6. Flight time ~ 20 minutes
 7. Plant health analysis
 8. Insect and weed detection
-9. 
+
+
 ## Defining the System
 ![System Design](https://user-images.githubusercontent.com/84840612/120325783-a0811900-c305-11eb-93e3-8571a249c117.png)
 
@@ -87,13 +88,12 @@ The UAV captures near Infrared radiations from the plants when they tap in sunli
 
 |      ID          |Description                          |Status                         |
 |----------------|-------------------------------|-----------------------------|
-|HR_01|Length |Implemented|
-|HR_02|Area |Implemented|
-|HR_03|Volume|Implemented|
-|HR_04|Mass |Implemented|
-|HR_05|Speed |Implemented|
-|HR_06|Time|Future|
-|HR_07|Temperature|Future|
+|HR_01|Hardware|Implemented|
+|HR_02|Autopilot|Implemented|
+|HR_03| Health Analysis|Implemented|
+|HR_04|I/W DetectionImplemented|
+|HR_05|Flask Server|Implemented|
+
 
 
 
