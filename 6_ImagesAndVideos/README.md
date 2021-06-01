@@ -1,5 +1,4 @@
-# images and videos
-## Project Working Videos 
+# Videos
 
 ## System Design
 #### The working video of the system design can be found at this [link](https://www.youtube.com/watch?v=g703XYbi8QQ)
