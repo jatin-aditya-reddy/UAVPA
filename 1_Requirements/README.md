@@ -1,74 +1,86 @@
 # Requirements
 
 ## Introduction
-* Knowing the units of measurement that correspond with a number can give you so much more information than a digit as a standalone. 
 
-* In a nutshell, the unit of measurement in science and math serves as the supporting pillar upon which a number rests.
-
-* **Unit conversion** is a process that involves multiplication or division by a numerical factor.
-
-* With the global flow of information that occurs these days, it is very important for everyone to learn these most basic conversion factors.
-
-* Keeping in mind all the conversion and inter-conversion processes may not be easy for everyone.
-
-* A metric conversion calculator is a tool that renders a helping hand by doing metric conversions in few seconds.
+* Hardware knowledge to develop a Drone (Quad-copter preferably), including soldering, interconnects on Powerdistribution Board, etc.
+* 
+* Camera and Mini-Computer (Raspberry Pi) Mounts on the drone, and the payload lift capacity calculated to meet the weight constraints for safe flight
+* 
+* Software Application to process the captured Near Infrared Spectrum on the NoIR Camera. 
+* 
+* Development of the Flask application server to present the realtime feed to the system.
+* 
+* Alternate Mount for an action camera to record video in SD/HD for insect and weed identification.
+* 
+* Knowledge of QGroundControl (Open Source Application) integration to the flightcontroller (Pixhawk PX4) and manual operations (for emergencies and failsafe)
 
 ## Research
-* During the French Revolution, the then existing measurement system was so impractical for trade and scientific purposes. 
 
-* So, it set the stage for the emergence of a system of measurement with rationally related units and simple rules for combining them.
+* Existing research (Cited below and in the conference paper, (link: https://ieeexplore.ieee.org/abstract/document/9376521), suggest the practicality of the product (if developed)
 
-* Thus, a decimal based conversion system, called the Metric System,  was introduced and it was widely accepted by scientists of those days for being a rational system.
+* It is possible to capture images and calculate the NIR band to estimate NDVI, this can be incorporated for a stream of images, i.e. video with defined FPS (Frames Per Second)
 
-* The metric system was devised with a aim “for all people, for all time.”
+* Autonomous Aerial Vechiles are app-guided i.e. (Via PC or Smartphones), and the same technology can be incorporated with the proposed idea to help farmers operate such a complex system with ease.
 
-* Today, the official system of measurement in most of the countries across the world is the metric system also known as the “International System of Units.
+* Drone Stability and product cost has been an industrial challenge owing to the physical complexities in the design.
 
-* Though a standard system, there are many units within the metric systems and inter-conversion is tedious because one has to remember all the conversion factors.
+Here are some reference papers that were vital for the development of this project.
 
-* Hence a tool that makes all these conversion immediately available will be a welcoming choice.
+1. Rangel Daroya, Manuel Ramos, “NDVI image extraction of an agricultural land using an autonomous quad-copter with a filter-modified camera” International Conference on Control System, Computing and Engineering (ICCSCE), 2017
+2. J. L. E. Honrado, D. B. Solpico, C. M. Favila, E. Tongson, G. L. Tangonan, N. J. C. Libatique, "UAV imaging with low-cost multispectral imaging system for precision agriculture applications", Global Humanitarian Technology Conference (GHTC) 2017 IEEE, pp. 1-7, 2017
+3.	Pest Detection on UAV Imagery using a Deep Convolutional Neural Network *Yacine Bouroubi, Pierre Bugnet, Thuy Nguyen-Xuan, Claire Gosselin, Carl Bélec, Louis Longchamps and Philippe Vigneault In Proceedings of the 14th International Conference on Precision Agriculture (unpaginated, online). Monticello, IL: International Society of Precision Agriculture
 
 ## Cost and Features
 ### *Cost*
-Since the system uses only open source software, it is free of cost..!!
 
-*TBD*
+* The software aspect of the system is free of cost, as it uses open source software and developed software from research accessible to everyone. 
+
+* The hardware used in this research prototype involves basic drone components, Raspberry Pi 3B, Pixhawk PX4 FC, NOIR RPi camera and an action camera (SD/HD), the total cost is approxmiately INR 53000/- which is subject to change as per fluctuating market prices day by day. 
+
 
 ### *Features*
-The various features/options for interconversion of the system are:
-1. Length
-2. Area
-3. Volume
-4. Mass
-5. Speed
 
+The features of the system are:
+1. Autonomous Flight
+2. Self Stablization (Hover)
+3. Altitude Hold (Alt_Lock)
+4. RTL (Return to launch i.e. failsafe)
+5. Mobile App Control
+6. Flight time ~ 20 minutes
+7. Plant health analysis
+8. Insect and weed detection
+9. 
 ## Defining the System
-![System-Diagram](https://github.com/Sanchana-2k/LTTS_C_MiniProject/blob/bd3f1a159eb0f2032dbd88662892a2142d26b84d/1_Requirements/System%20Diagram.jpg)
-    
+![System Design](https://user-images.githubusercontent.com/84840612/120325783-a0811900-c305-11eb-93e3-8571a249c117.png)
+
+
 ## SWOT ANALYSIS
-![SWOT-Analysis](https://github.com/Sanchana-2k/LTTS_C_MiniProject/blob/6f6972167470b4b186e9995b7a6647f3f8c7cbd5/1_Requirements/swot%20analysis.jpg)
+![SWOT](https://user-images.githubusercontent.com/84840612/120325808-a840bd80-c305-11eb-95fe-d4040fe5d6a9.jpg)
+
 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
 
-The tool is a helping hand for young children who would like to counter verify their conversions and also for scientific researchers and mathematicians.
+The product will benefit farmers who would like to improve their crop yield in a harvest season. It can also provide an early insight into the cultivation season to help them make necessary changes early on.
+
 
 ## What:
 
-A metric conversion calculator that does metric conversions in few seconds.
+A Unmanned Aerial Vehicle, for Precision Agriculture, capable of autonomous, app-controlled flight to identify insects, weeds and determine the health status of crops.
 
 ## When:
 
-When people are struggling with simple conversions or when kids would like to cross verify their answers while practicing or when people need conversion results in a jiffy to proceed on further with their calculations. 
+It can assist farmers to navigate across difficult portions of their farms, and more importantly complete the inspection and analysis in a short time span compared to manual inspection. It will save manpower additionally.
 
 ## Where:
 
-Can be put to use where simple or advanced scientific and mathematic calculations requiring conversions are involved.
+The product can be put to use almost in every scenario involving farms, such as step farms, irrigation networks etc. The calculations and results obtained are accurate.
 
 ## How:
 
-The system opens up to the standard list of metric conversions that are available. Upon selection of one the standard system, the list of inter-conversions i.e., the sub-system is shown on the screen. The user can now choose one sub unit that needs to be converted into one or more other sub units that is available on the list.  The results for all these conversions are flashed in a second.
+The UAV captures near Infrared radiations from the plants when they tap in sunlight during the day. It is a property for every plant to release these radiations upon illumination. A healthy plant is capable of reflecting almost entirely, while unhealthy plants can do so in traces. Other non-living entities and even animals and humans can't do so. The Normalized Difference Vegetation Index is identified from these values, and it is a ratio to enable us undestand plant health better. R-CNN deep learning model is used for weeds and insects and its idenfitication in the field. The results obtained can be seen in the flask application in real-time. 
+
 
 # Detail requirements
 ## High Level Requirements:
