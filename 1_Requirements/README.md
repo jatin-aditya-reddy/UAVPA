@@ -100,42 +100,17 @@ The UAV captures near Infrared radiations from the plants when they tap in sunli
 ##  Low level Requirements:
 |      ID          |Description                          |  HLR_ID  |Status               |
 |----------------|-------------------------------|----------|-----------------------------|
-| LR_01   | Procurement     | HR_01   | Completed     |
-| LR_02   | Frame Build     | HR_01   | Completed     |
-| LR_03   | Soldering       | HR_01   | Completed     |
-| LR_04   | Circuitry       | HR_01   | Completed     |
-| LR_05   | Patch Update    | HR_02   | Completed     |
-| LR_06   | Calibration     | HR_02   | Completed     |
-| LR_07   | Telemetry Link  | HR_02   | Completed     |
+| LR_01   | Procurement                | HR_01   | Completed     |
+| LR_02   | Frame Build                | HR_01   | Completed     |
+| LR_03   | Soldering                  | HR_01   | Completed     |
+| LR_04   | Circuitry                  | HR_01   | Completed     |
+| LR_05   | Patch Update               | HR_02   | Completed     |
+| LR_06   | Calibration                | HR_02   | Completed     |
+| LR_07   | Telemetry Link             | HR_02   | Completed     |
+| LR_08   | NDVI Program               | HR_03   | Implemented   |
+| LR_09   | R-CNN for Insect Detection | HR_04   | Implemented   |
+| LR_10   | R-CNN for Weed Detection   | HR_04   | Implemented   |
+| LR_11   | Localhost server           | HR_05   | Implemented   |
+| LR_12   | Feed TX/RX to Flaskserver  | HR_05   | Implemented   |
 
-|LR_01|Meter|HR_01|Implemented|
-|LR_02|Centimeter|HR_01|Implemented|
-|LR_03|Foot|HR_01|Implemented|
-|LR_04|Inch|HR_01|Implemented|
-|LR_05|Millimeter|HR_01|Implemented|
-|LR_06|Square Meter|HR_02|Implemented|
-|LR_07|Square Centimeter|HR_02|Implemented|
-|LR_08|Square Foot|HR_02|Implemented|
-|LR_09|MSquare Inch|HR_02|Implemented|
-|LR_10|Square Yard|HR_02|Implemented|
-|LR_11|Cubic Meter|HR_03|Implemented|
-|LR_12|Cubic Centimeter|HR_03|Implemented|
-|LR_13|Litre|HR_03|Implemented|
-|LR_14|Millilitre|HR_03|Implemented|
-|LR_15|Gallon (imperial)|HR_03|Implemented|
-|LR_16|Kilogram|HR_04|Implemented|
-|LR_17|Gram|HR_04|Implemented|
-|LR_18|Ounce|HR_04|Implemented|
-|LR_19|Tonne (metric)|HR_04|Implemented|
-|LR_20|Pound|HR_04|Implemented|
-|LR_21|Meter per Second|HR_05|Implemented|
-|LR_22|Kilometer per Hour|HR_05|Implemented|
-|LR_23|Miles per Hour|HR_05|Implemented|
-|LR_24|Foot per Second|HR_05|Implemented|
-|LR_25|Knot|HR_05|Implemented|
-|LR_26|Hour|HR_06|Future|
-|LR_27|Minute|HR_06|Future|
-|LR_28|Second|HR_06|Future|
-|LR_29|Celcius|HR_07|Future|
-|LR_30|Farenheit|HR_07|Future|
-|LR_31|Kelvin|HR_07|Future|
+
