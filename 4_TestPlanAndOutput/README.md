@@ -16,11 +16,9 @@
 * Feed Stability: action camera to identify stability in the mount - Requirement based test - successful
 * Constant framerate of stream (30fps) - requirement based test - passed
 * Hardware aspects - passed
-* 
-* 
-* volume options function - Requirement based test - Passing
-* mass options function - Requirement based test - Passing
-* speed options function - Requirement based test - Passing
-* file extraction function - Scenario based test - Passing
-* conversion function - Scenario based test - Passing
-* print output table - - Scenario based test - Passing
+* NDVI stream - black and white - passed
+* NDVI stream - color mapped - passed
+* Bounding boxes for object detection - passed 
+* Model training - passed
+* Insect and weed time stamp - passed
+* Geotagging - passed
