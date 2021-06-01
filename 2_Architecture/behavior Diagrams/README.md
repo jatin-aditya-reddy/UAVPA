@@ -1,10 +1,12 @@
 # Behavior Diagrams
 
 ### High Level Behavioural Diagram
-![High Level Usecase Diagram](https://github.com/Sanchana-2k/LTTS_C_MiniProject/blob/15e8ee9416ef51f4b49194c97292650a1f2ef02d/2_Architecture/behavior%20Diagrams/High_Level_Behavior.jpg)
+![HL diagram](https://user-images.githubusercontent.com/84840612/120336849-623d2700-c310-11eb-9e0e-dff6892a2794.jpg)
+
 
 ### Low Level Behavioural Diagram
-![Low Level Usecase Diagram](https://github.com/Sanchana-2k/LTTS_C_MiniProject/blob/c5b39a89372be95f71196d3c4523df77be7f0f3f/2_Architecture/behavior%20Diagrams/Low_Level_Behavior.jpg)
+![LL diagram](https://user-images.githubusercontent.com/84840612/120336896-7123d980-c310-11eb-8654-619fff8867e1.jpg)
+
 
 
 
