@@ -13,11 +13,11 @@ Folder             | Description
 
 SF No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`267118` | Jatin  | Hardware Test   | Nil     | Nil   |3   | Passed    
-`267118` | Jatin  | Autopilot   | Nil     | Nil   |4  | Passed
-`267118` | Jatin  | Health Analysis   | Nil     | Nil   |15   | Passed
-`267118` | Jatin  | I/W Detection  | Nil     | Nil   | 16  | Passed
-`267118` | Jatin  | Flask Server   | Nil     | Nil   |2   | Passed
+`22` | Jatin  | Hardware Test   | Nil     | Nil   |3   | Passed    
+`01` | Abhay  | Autopilot   | Nil     | Nil   |4  | Passed
+`22` | Jatin  | Health Analysis   | Nil     | Nil   |15   | Passed
+`40` | Sakshi Verma  | I/W Detection  | Nil     | Nil   | 16  | Passed
+`05` | Akhil Kumar  | Flask Server   | Nil     | Nil   |2   | Passed
 
 ## Challenges Faced and How Was It Overcome
 
