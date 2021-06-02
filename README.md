@@ -25,13 +25,15 @@ SF No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 2. Dataset shortage - Solved by data mining
 
 ## Learning Resources
-1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-3. [git inspector](https://github.com/ejwa/gitinspector.git)
-4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
+
+Here are some reference papers that were vital for the development of this project.
+
+1. Rangel Daroya, Manuel Ramos, “NDVI image extraction of an agricultural land using an autonomous quad-copter with a filter-modified camera” International Conference on Control System, Computing and Engineering (ICCSCE), 2017
+2. J. L. E. Honrado, D. B. Solpico, C. M. Favila, E. Tongson, G. L. Tangonan, N. J. C. Libatique, "UAV imaging with low-cost multispectral imaging system for precision agriculture applications", Global Humanitarian Technology Conference (GHTC) 2017 IEEE, pp. 1-7, 2017
+3.	Pest Detection on UAV Imagery using a Deep Convolutional Neural Network *Yacine Bouroubi, Pierre Bugnet, Thuy Nguyen-Xuan, Claire Gosselin, Carl Bélec, Louis Longchamps and Philippe Vigneault In Proceedings of the 14th International Conference on Precision Agriculture (unpaginated, online). Monticello, IL: International Society of Precision Agriculture
 
 ## Credits
 
-1. Reference requirements and architecture and test plan - [Manjari_AP](https://github.com/256152/Mini_Project_1_April_2021.git)
-2. Reference for High Level Requirements and Low Level Requirements Table - [arc-arnob](https://github.com/arc-arnob/LnT_Mini_Project.git)
+Project credits go to the team from IIIT Naya Raipur as available on the conference papers of IEEE UPCON 2020
+A. K. Donka, J. A. R. Seerapu, S. Verma, A. Sao, G. Shukla and S. Tripathi, "Unmanned Aerial Vehicle for Precision Agriculture in a Modular Approach," 2020 IEEE 7th Uttar Pradesh Section International Conference on Electrical, Electronics and Computer Engineering (UPCON), 2020, pp. 1-5, doi: 10.1109/UPCON50219.2020.9376521.
 
