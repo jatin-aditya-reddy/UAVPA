@@ -7,22 +7,22 @@ Folder             | Description
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
 `5_Results`        | Showcases the results obtained in the project
-`6_ImagesandVideos | Demonstrates project output
+`6_ImagesandVideos`| Demonstrates project output
 
 ## Contributors List and Summary
 
 SF No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`267118` | Jatin  | Hardware Test   | Nil     | Nil   |3   | Cleared    
-`267118` | Jatin  | Autopilot   | Nil     | Nil   |4  | Success
-`267118` | Jatin  | Hardware Test   | Nil     | Nil   |3   | Cleared
-`267118` | Jatin  | Hardware Test   | Nil     | Nil   |3   | Cleared
-`267118` | Jatin  | Hardware Test   | Nil     | Nil   |3   | Cleared
+`267118` | Jatin  | Hardware Test   | Nil     | Nil   |3   | Passed    
+`267118` | Jatin  | Autopilot   | Nil     | Nil   |4  | Passed
+`267118` | Jatin  | Health Analysis   | Nil     | Nil   |15   | Passed
+`267118` | Jatin  | I/W Detection  | Nil     | Nil   | 16  | Passed
+`267118` | Jatin  | Flask Server   | Nil     | Nil   |2   | Passed
 
 ## Challenges Faced and How Was It Overcome
 
-1. Inputing char for int in while(1) loop lead to infinite loop -> got value as fgets
-2. Including files -> later resolved
+1. Color mapping after calculating NDVI to output image on flask server - programming challenge
+2. Dataset shortage - Solved by data mining
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
