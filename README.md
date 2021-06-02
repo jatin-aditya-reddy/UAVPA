@@ -44,6 +44,6 @@ Here are some reference papers that were vital for the development of this proje
 
 ## Team Credits
 
-Project credits go to the team from IIIT Naya Raipur as available on the conference papers of IEEE UPCON 2020
+Project credits go to the team from IIIT Naya Raipur (as available on the conference papers of IEEE UPCON 2020)
 A. K. Donka, J. A. R. Seerapu, S. Verma, A. Sao, G. Shukla and S. Tripathi, "Unmanned Aerial Vehicle for Precision Agriculture in a Modular Approach," 2020 IEEE 7th Uttar Pradesh Section International Conference on Electrical, Electronics and Computer Engineering (UPCON), 2020, pp. 1-5, doi: 10.1109/UPCON50219.2020.9376521.
 
